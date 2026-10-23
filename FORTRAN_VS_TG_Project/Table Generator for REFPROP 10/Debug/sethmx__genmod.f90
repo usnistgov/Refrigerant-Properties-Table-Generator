@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:19 2020
+        MODULE SETHMX__genmod
+          INTERFACE 
+            SUBROUTINE SETHMX(HFMIX,IERR,HERR)
+              CHARACTER(LEN=255) :: HFMIX
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETHMX
+          END INTERFACE 
+        END MODULE SETHMX__genmod

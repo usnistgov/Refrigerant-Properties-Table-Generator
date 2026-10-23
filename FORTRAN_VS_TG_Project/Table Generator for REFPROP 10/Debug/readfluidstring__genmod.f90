@@ -1,0 +1,17 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:01 2020
+        MODULE READFLUIDSTRING__genmod
+          INTERFACE 
+            SUBROUTINE READFLUIDSTRING(HFLDIN,HFLD,IMASSX,IMIX,INEW,NCC,&
+     &Z,IERR,HERR)
+              CHARACTER(*) :: HFLDIN
+              CHARACTER(LEN=10000) :: HFLD
+              INTEGER(KIND=4) :: IMASSX
+              INTEGER(KIND=4) :: IMIX
+              INTEGER(KIND=4) :: INEW
+              INTEGER(KIND=4) :: NCC
+              REAL(KIND=8) :: Z(20)
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE READFLUIDSTRING
+          END INTERFACE 
+        END MODULE READFLUIDSTRING__genmod

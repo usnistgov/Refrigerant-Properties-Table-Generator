@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Oct 29 22:35:01 2020
+        MODULE WTABLE__genmod
+          INTERFACE 
+            SUBROUTINE WTABLE
+            END SUBROUTINE WTABLE
+          END INTERFACE 
+        END MODULE WTABLE__genmod

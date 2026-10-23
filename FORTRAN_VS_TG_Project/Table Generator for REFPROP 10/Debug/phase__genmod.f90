@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:58 2020
+        MODULE PHASE__genmod
+          INTERFACE 
+            SUBROUTINE PHASE(XPHASE,HPHASE)
+              REAL(KIND=8) :: XPHASE
+              CHARACTER(LEN=255) :: HPHASE
+            END SUBROUTINE PHASE
+          END INTERFACE 
+        END MODULE PHASE__genmod

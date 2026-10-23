@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:00 2020
+        MODULE GETENUM__genmod
+          INTERFACE 
+            SUBROUTINE GETENUM(IFLAG,HENUM,IENUM,IERR,HERR)
+              INTEGER(KIND=4) :: IFLAG
+              CHARACTER(*) :: HENUM
+              INTEGER(KIND=4) :: IENUM
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE GETENUM
+          END INTERFACE 
+        END MODULE GETENUM__genmod

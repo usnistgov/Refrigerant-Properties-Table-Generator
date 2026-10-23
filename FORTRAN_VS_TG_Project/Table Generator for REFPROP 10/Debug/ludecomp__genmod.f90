@@ -1,0 +1,13 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:52 2020
+        MODULE LUDECOMP__genmod
+          INTERFACE 
+            SUBROUTINE LUDECOMP(N,MAXN,AMATRIX,CMATRIX,IERR,HERR)
+              INTEGER(KIND=4) :: MAXN
+              INTEGER(KIND=4) :: N
+              REAL(KIND=8) :: AMATRIX(MAXN,MAXN)
+              REAL(KIND=8) :: CMATRIX(MAXN)
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE LUDECOMP
+          END INTERFACE 
+        END MODULE LUDECOMP__genmod

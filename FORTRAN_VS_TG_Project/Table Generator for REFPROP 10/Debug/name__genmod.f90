@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE NAME__genmod
+          INTERFACE 
+            SUBROUTINE NAME(ICOMP,HNAM,HN80,HCASN)
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=12) :: HNAM
+              CHARACTER(LEN=80) :: HN80
+              CHARACTER(LEN=12) :: HCASN
+            END SUBROUTINE NAME
+          END INTERFACE 
+        END MODULE NAME__genmod

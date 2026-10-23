@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:19 2020
+        MODULE RDMIX__genmod
+          INTERFACE 
+            SUBROUTINE RDMIX(NREAD,IERR,HERR)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE RDMIX
+          END INTERFACE 
+        END MODULE RDMIX__genmod

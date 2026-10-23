@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE SETEOSMX__genmod
+          INTERFACE 
+            SUBROUTINE SETEOSMX(HMX)
+              CHARACTER(LEN=3) :: HMX
+            END SUBROUTINE SETEOSMX
+          END INTERFACE 
+        END MODULE SETEOSMX__genmod

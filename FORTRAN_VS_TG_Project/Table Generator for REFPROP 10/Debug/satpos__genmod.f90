@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Oct 29 22:35:00 2020
+        MODULE SATPOS__genmod
+          INTERFACE 
+            SUBROUTINE SATPOS
+            END SUBROUTINE SATPOS
+          END INTERFACE 
+        END MODULE SATPOS__genmod

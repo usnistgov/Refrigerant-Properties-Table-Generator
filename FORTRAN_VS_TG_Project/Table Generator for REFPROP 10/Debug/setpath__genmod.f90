@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:58 2020
+        MODULE SETPATH__genmod
+          INTERFACE 
+            SUBROUTINE SETPATH(HPTH)
+              CHARACTER(*) :: HPTH
+            END SUBROUTINE SETPATH
+          END INTERFACE 
+        END MODULE SETPATH__genmod

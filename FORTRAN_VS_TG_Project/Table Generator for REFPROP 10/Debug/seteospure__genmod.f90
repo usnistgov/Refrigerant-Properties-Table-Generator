@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE SETEOSPURE__genmod
+          INTERFACE 
+            SUBROUTINE SETEOSPURE(I,HMX)
+              INTEGER(KIND=4) :: I
+              CHARACTER(LEN=3) :: HMX
+            END SUBROUTINE SETEOSPURE
+          END INTERFACE 
+        END MODULE SETEOSPURE__genmod

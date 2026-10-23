@@ -1,0 +1,13 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE SETMOD__genmod
+          INTERFACE 
+            SUBROUTINE SETMOD(NCOMP,HTYPE,HMIX,HCOMP,IERR,HERR)
+              INTEGER(KIND=4) :: NCOMP
+              CHARACTER(LEN=3) :: HTYPE
+              CHARACTER(LEN=3) :: HMIX
+              CHARACTER(LEN=3) :: HCOMP(1:20)
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETMOD
+          END INTERFACE 
+        END MODULE SETMOD__genmod

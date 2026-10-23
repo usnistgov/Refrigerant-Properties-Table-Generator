@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE OPENFL2__genmod
+          INTERFACE 
+            SUBROUTINE OPENFL2(NREAD,IFLDARRAY,IULC,IOERR,HFILEI,       &
+     &HFLDARRAY)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: IFLDARRAY
+              INTEGER(KIND=4) :: IULC
+              INTEGER(KIND=4) :: IOERR
+              CHARACTER(LEN=255) :: HFILEI
+              CHARACTER(LEN=255) :: HFLDARRAY(150)
+            END SUBROUTINE OPENFL2
+          END INTERFACE 
+        END MODULE OPENFL2__genmod

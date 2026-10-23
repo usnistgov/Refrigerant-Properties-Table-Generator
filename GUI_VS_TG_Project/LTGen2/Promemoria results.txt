@@ -1,0 +1,16 @@
+Quando si fa il setup ricorda di sistemare compressor database.
+
+Togliere: i flussi incrociati, il transcritico.
+
+
+Cartella con file compressore.
+
+Question to steve over DP post data message, I do not understand the "pressure drops assigned are unrealistic"
+especially the error 0.05 between the assigned and calculated values.
+
+STORICO VERSIONI	
+
+CycleD_V11, versione a 28/08/2013, con dll e bugs corretti sul calling e post data.
+
+
+

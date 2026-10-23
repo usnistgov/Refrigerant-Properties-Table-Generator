@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:34 2020
+        MODULE SETFLD__genmod
+          INTERFACE 
+            SUBROUTINE SETFLD(ICOMP,HFILE,JFLUIDID,IERR,HERR)
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=255) :: HFILE(41)
+              INTEGER(KIND=4) :: JFLUIDID
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETFLD
+          END INTERFACE 
+        END MODULE SETFLD__genmod

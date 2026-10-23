@@ -1,0 +1,13 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:42 2020
+        MODULE SETECS__genmod
+          INTERFACE 
+            SUBROUTINE SETECS(NREAD,ICOMP,HREFF,HEQN,IERR,HERR)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=255) :: HREFF
+              CHARACTER(LEN=3) :: HEQN
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETECS
+          END INTERFACE 
+        END MODULE SETECS__genmod

@@ -1,0 +1,189 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ProgramVersion">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Version" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Preferences">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Unit" type="xs:string" minOccurs="0" />
+                <xs:element name="InputTypeEvCondSat" type="xs:int" minOccurs="0" />
+                <xs:element name="RefState" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="RefMix">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TypeRefrigerant" type="xs:int" minOccurs="0" />
+                <xs:element name="SelectedIndex" type="xs:int" minOccurs="0" />
+                <xs:element name="SelectedFluidIndex_0" type="xs:string" minOccurs="0" />
+                <xs:element name="SelectedFluidIndex_1" type="xs:string" minOccurs="0" />
+                <xs:element name="SelectedFluidIndex_2" type="xs:string" minOccurs="0" />
+                <xs:element name="fluid" type="xs:string" minOccurs="0" />
+                <xs:element name="cas" type="xs:string" minOccurs="0" />
+                <xs:element name="fullname" type="xs:string" minOccurs="0" />
+                <xs:element name="chemname" type="xs:string" minOccurs="0" />
+                <xs:element name="FileName" type="xs:string" minOccurs="0" />
+                <xs:element name="ShortName" type="xs:string" minOccurs="0" />
+                <xs:element name="junk" type="xs:string" minOccurs="0" />
+                <xs:element name="wmstring" type="xs:string" minOccurs="0" />
+                <xs:element name="wm" type="xs:double" minOccurs="0" />
+                <xs:element name="tnbptstring" type="xs:string" minOccurs="0" />
+                <xs:element name="tnbpt" type="xs:double" minOccurs="0" />
+                <xs:element name="tcstring" type="xs:string" minOccurs="0" />
+                <xs:element name="tc" type="xs:double" minOccurs="0" />
+                <xs:element name="pcstring" type="xs:string" minOccurs="0" />
+                <xs:element name="pc" type="xs:double" minOccurs="0" />
+                <xs:element name="dcstring" type="xs:string" minOccurs="0" />
+                <xs:element name="dc" type="xs:double" minOccurs="0" />
+                <xs:element name="acfstring" type="xs:string" minOccurs="0" />
+                <xs:element name="acf" type="xs:double" minOccurs="0" />
+                <xs:element name="nc" type="xs:int" minOccurs="0" />
+                <xs:element name="comp" type="xs:string" minOccurs="0" />
+                <xs:element name="X" type="xs:double" minOccurs="0" />
+                <xs:element name="WmElements" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="LTGInput">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VaporLiquidDisplayResults" type="xs:int" minOccurs="0" />
+                <xs:element name="LeakType" type="xs:int" minOccurs="0" />
+                <xs:element name="LeakingPhase" type="xs:int" minOccurs="0" />
+                <xs:element name="Simulation" type="xs:int" minOccurs="0" />
+                <xs:element name="NumberOfRecharge" type="xs:int" minOccurs="0" />
+                <xs:element name="PercentMassLossForRecharging" type="xs:double" minOccurs="0" />
+                <xs:element name="InletTemperature" type="xs:double" minOccurs="0" />
+                <xs:element name="IntialVolumetricQuality" type="xs:double" minOccurs="0" />
+                <xs:element name="FillTemperature" type="xs:double" minOccurs="0" />
+                <xs:element name="FractionOfMaximumLiquidFill" type="xs:double" minOccurs="0" />
+                <xs:element name="HPlimit" type="xs:int" minOccurs="0" />
+                <xs:element name="LPlimit" type="xs:int" minOccurs="0" />
+                <xs:element name="Pnum" type="xs:int" minOccurs="0" />
+                <xs:element name="Hnum" type="xs:int" minOccurs="0" />
+                <xs:element name="LINscl" type="xs:int" minOccurs="0" />
+                <xs:element name="LOGscl" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ProgramVersion>
+    <Version>1</Version>
+  </ProgramVersion>
+  <Preferences>
+    <Unit>SI with °C</Unit>
+    <InputTypeEvCondSat>1</InputTypeEvCondSat>
+    <RefState>0</RefState>
+  </Preferences>
+  <RefMix>
+    <TypeRefrigerant>1</TypeRefrigerant>
+    <SelectedIndex>21</SelectedIndex>
+    <SelectedFluidIndex_0>R410A</SelectedFluidIndex_0>
+    <SelectedFluidIndex_1>False</SelectedFluidIndex_1>
+    <SelectedFluidIndex_2>True</SelectedFluidIndex_2>
+    <fluid>R410A</fluid>
+    <fullname />
+    <chemname />
+    <FileName>R410A.mix</FileName>
+    <ShortName>R410A.mix</ShortName>
+    <junk />
+    <wmstring>72.5854142406597</wmstring>
+    <wm>72.5854142406597</wm>
+    <tnbptstring />
+    <tnbpt>0</tnbpt>
+    <tcstring>343.606231592265</tcstring>
+    <tc>343.606231592265</tc>
+    <pcstring>4813.60652781276</pcstring>
+    <pc>4813.60652781276</pc>
+    <dcstring>5.97841690142842</dcstring>
+    <dc>5.97841690142842</dc>
+    <acfstring />
+    <acf>0</acf>
+    <nc>2</nc>
+  </RefMix>
+  <RefMix>
+    <TypeRefrigerant>1</TypeRefrigerant>
+    <SelectedIndex>21</SelectedIndex>
+    <SelectedFluidIndex_0>R410A</SelectedFluidIndex_0>
+    <SelectedFluidIndex_1>False</SelectedFluidIndex_1>
+    <SelectedFluidIndex_2>True</SelectedFluidIndex_2>
+    <fluid>R32</fluid>
+    <cas>75-10-5</cas>
+    <fullname>Difluoromethane</fullname>
+    <chemname>CH2F2</chemname>
+    <junk>136.34               !Triple point temperature [K]</junk>
+    <wmstring>52.024</wmstring>
+    <wm>52.024</wm>
+    <tnbptstring>221.499</tnbptstring>
+    <tnbpt>221.499</tnbpt>
+    <tcstring>351.255</tcstring>
+    <tc>351.255</tc>
+    <pcstring>5782.</pcstring>
+    <pc>5782</pc>
+    <dcstring>8.1500846</dcstring>
+    <dc>8.1500846</dc>
+    <acfstring>0.2769</acfstring>
+    <acf>0.2769</acf>
+    <comp>R32.FLD</comp>
+    <X>0.697614699375863</X>
+    <WmElements>0.50000000000000056</WmElements>
+  </RefMix>
+  <RefMix>
+    <TypeRefrigerant>1</TypeRefrigerant>
+    <SelectedIndex>21</SelectedIndex>
+    <SelectedFluidIndex_0>R410A</SelectedFluidIndex_0>
+    <SelectedFluidIndex_1>False</SelectedFluidIndex_1>
+    <SelectedFluidIndex_2>True</SelectedFluidIndex_2>
+    <fluid>R125</fluid>
+    <cas>354-33-6</cas>
+    <fullname>Pentafluoroethane</fullname>
+    <chemname>CHF2CF3</chemname>
+    <junk>172.52               !Triple point temperature [K]</junk>
+    <wmstring>120.0214</wmstring>
+    <wm>120.0214</wm>
+    <tnbptstring>225.06</tnbptstring>
+    <tnbpt>225.06</tnbpt>
+    <tcstring>339.173</tcstring>
+    <tc>339.173</tc>
+    <pcstring>3617.7</pcstring>
+    <pc>3617.7</pc>
+    <dcstring>4.779</dcstring>
+    <dc>4.779</dc>
+    <acfstring>0.3052</acfstring>
+    <acf>0.3052</acf>
+    <comp>R125.FLD</comp>
+    <X>0.302385300624138</X>
+    <WmElements>0.50000000000000089</WmElements>
+  </RefMix>
+  <LTGInput>
+    <VaporLiquidDisplayResults>0</VaporLiquidDisplayResults>
+    <LeakType>0</LeakType>
+    <LeakingPhase>0</LeakingPhase>
+    <Simulation>0</Simulation>
+    <NumberOfRecharge>0</NumberOfRecharge>
+    <PercentMassLossForRecharging>0</PercentMassLossForRecharging>
+    <InletTemperature>0</InletTemperature>
+    <IntialVolumetricQuality>0</IntialVolumetricQuality>
+    <FillTemperature>0</FillTemperature>
+    <FractionOfMaximumLiquidFill>0</FractionOfMaximumLiquidFill>
+    <HPlimit>2000</HPlimit>
+    <LPlimit>1000</LPlimit>
+    <Pnum>10</Pnum>
+    <Hnum>10</Hnum>
+    <LINscl>1</LINscl>
+    <LOGscl>0</LOGscl>
+  </LTGInput>
+</NewDataSet>

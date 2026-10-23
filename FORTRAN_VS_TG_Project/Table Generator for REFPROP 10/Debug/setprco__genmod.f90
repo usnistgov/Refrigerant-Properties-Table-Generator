@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:35 2020
+        MODULE SETPRCO__genmod
+          INTERFACE 
+            SUBROUTINE SETPRCO(I)
+              INTEGER(KIND=4) :: I
+            END SUBROUTINE SETPRCO
+          END INTERFACE 
+        END MODULE SETPRCO__genmod

@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:52 2020
+        MODULE FLUIDID__genmod
+          INTERFACE 
+            SUBROUTINE FLUIDID(HCASI,HASHI,IFLDID)
+              CHARACTER(*) :: HCASI
+              CHARACTER(*) :: HASHI
+              INTEGER(KIND=4) :: IFLDID
+            END SUBROUTINE FLUIDID
+          END INTERFACE 
+        END MODULE FLUIDID__genmod

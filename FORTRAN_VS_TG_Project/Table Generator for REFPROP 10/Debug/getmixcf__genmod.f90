@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:19 2020
+        MODULE GETMIXCF__genmod
+          INTERFACE 
+            SUBROUTINE GETMIXCF(ICOMP,JCOMP,IMX,IERR,HERR)
+              INTEGER(KIND=4) :: ICOMP
+              INTEGER(KIND=4) :: JCOMP
+              INTEGER(KIND=4) :: IMX
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE GETMIXCF
+          END INTERFACE 
+        END MODULE GETMIXCF__genmod

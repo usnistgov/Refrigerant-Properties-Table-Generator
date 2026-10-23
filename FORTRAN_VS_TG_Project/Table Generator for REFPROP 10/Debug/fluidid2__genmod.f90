@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE FLUIDID2__genmod
+          INTERFACE 
+            SUBROUTINE FLUIDID2(HCASI,HASHI)
+              CHARACTER(*) :: HCASI
+              CHARACTER(*) :: HASHI
+            END SUBROUTINE FLUIDID2
+          END INTERFACE 
+        END MODULE FLUIDID2__genmod

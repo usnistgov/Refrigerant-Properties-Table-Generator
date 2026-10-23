@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE GERG08__genmod
+          INTERFACE 
+            SUBROUTINE GERG08(NCOMP,IFLAG,IERR,HERR)
+              INTEGER(KIND=4) :: NCOMP
+              INTEGER(KIND=4) :: IFLAG
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE GERG08
+          END INTERFACE 
+        END MODULE GERG08__genmod

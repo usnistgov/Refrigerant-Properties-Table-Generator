@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE GETMOD__genmod
+          INTERFACE 
+            SUBROUTINE GETMOD(ICOMP,HTYPE,HCODE,HCITE)
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=3) :: HTYPE
+              CHARACTER(LEN=3) :: HCODE
+              CHARACTER(LEN=255) :: HCITE
+            END SUBROUTINE GETMOD
+          END INTERFACE 
+        END MODULE GETMOD__genmod

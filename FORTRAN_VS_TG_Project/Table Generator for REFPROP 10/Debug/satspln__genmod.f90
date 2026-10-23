@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:40 2020
+        MODULE SATSPLN__genmod
+          INTERFACE 
+            SUBROUTINE SATSPLN(Z,IERR,HERR)
+              REAL(KIND=8) :: Z(20)
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SATSPLN
+          END INTERFACE 
+        END MODULE SATSPLN__genmod

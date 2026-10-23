@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:20 2020
+        MODULE SETAGA__genmod
+          INTERFACE 
+            SUBROUTINE SETAGA(IERR,HERR)
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETAGA
+          END INTERFACE 
+        END MODULE SETAGA__genmod

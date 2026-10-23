@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:16 2020
+        MODULE SETVIS__genmod
+          INTERFACE 
+            SUBROUTINE SETVIS(NREAD,ICOMP,HTYPE,IERR,HERR)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=3) :: HTYPE
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETVIS
+          END INTERFACE 
+        END MODULE SETVIS__genmod

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{A70052DD-F881-4E4D-BA0E-AB56C6ED9DAF}">
+	<Platforms>
+		<Platform Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd">
+			<File RelativePath=".\REFPROP10\COMAGA8.INC"/>
+			<File RelativePath=".\REFPROP10\COMANC.INC"/>
+			<File RelativePath=".\REFPROP10\COMFEQ.INC"/>
+			<File RelativePath=".\REFPROP10\COMMONS.INC"/>
+			<File RelativePath=".\REFPROP10\COMREFP.INC"/>
+			<File RelativePath=".\REFPROP10\COMTRN.INC"/>
+			<File RelativePath=".\REFPROP10\CONSTS.INC"/>
+		</Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+			<Filter Name="REFPROP">
+				<File RelativePath=".\REFPROP10\CORE_ANC.FOR"/>
+				<File RelativePath=".\REFPROP10\CORE_FEQ.FOR"/>
+				<File RelativePath=".\REFPROP10\CORE_PR.FOR"/>
+				<File RelativePath=".\REFPROP10\FLSH_SUB.FOR"/>
+				<File RelativePath=".\REFPROP10\MIX_HMX.FOR"/>
+				<File RelativePath=".\REFPROP10\PROP_SUB.FOR"/>
+				<File RelativePath=".\REFPROP10\REFPROP.FOR"/>
+				<File RelativePath=".\REFPROP10\SAT_SUB.FOR"/>
+				<File RelativePath=".\REFPROP10\SETUP.FOR"/>
+				<File RelativePath=".\REFPROP10\TRNS_TCX.FOR"/>
+				<File RelativePath=".\REFPROP10\TRNS_VIS.FOR"/>
+				<File RelativePath=".\REFPROP10\TRNSP.FOR"/>
+				<File RelativePath=".\REFPROP10\UTILITY.FOR"/>
+			</Filter>
+			<File RelativePath=".\mtable.for"/>
+			<File RelativePath=".\Table7.for"/>
+		</Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

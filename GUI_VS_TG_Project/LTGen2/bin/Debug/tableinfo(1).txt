@@ -1,0 +1,7 @@
+1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)-3-pentanone
+1
+NOVEC649
+1.000
+200 2500
+103 10
+0

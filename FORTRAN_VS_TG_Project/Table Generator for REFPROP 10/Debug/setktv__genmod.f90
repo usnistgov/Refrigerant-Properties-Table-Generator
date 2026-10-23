@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:19 2020
+        MODULE SETKTV__genmod
+          INTERFACE 
+            SUBROUTINE SETKTV(ICOMP,JCOMP,HMODIJ,FIJ,HFMIX,IERR,HERR)
+              INTEGER(KIND=4) :: ICOMP
+              INTEGER(KIND=4) :: JCOMP
+              CHARACTER(LEN=3) :: HMODIJ
+              REAL(KIND=8) :: FIJ(6)
+              CHARACTER(LEN=255) :: HFMIX
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETKTV
+          END INTERFACE 
+        END MODULE SETKTV__genmod

@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ProgramVersion">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Version" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Startup">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DisplayOpeningWindow" type="xs:boolean" minOccurs="0" />
+                <xs:element name="FileLoad" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Preferences">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Unit" type="xs:string" minOccurs="0" />
+                <xs:element name="InputTypeEvCondSat" type="xs:int" minOccurs="0" />
+                <xs:element name="RefState" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ProgramVersion>
+    <Version>1</Version>
+  </ProgramVersion>
+  <Startup>
+    <DisplayOpeningWindow>true</DisplayOpeningWindow>
+    <FileLoad>0</FileLoad>
+  </Startup>
+  <Preferences>
+    <Unit>SI with °C</Unit>
+    <InputTypeEvCondSat>1</InputTypeEvCondSat>
+    <RefState>0</RefState>
+  </Preferences>
+</NewDataSet>

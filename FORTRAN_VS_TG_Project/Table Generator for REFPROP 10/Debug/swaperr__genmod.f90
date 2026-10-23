@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE SWAPERR__genmod
+          INTERFACE 
+            SUBROUTINE SWAPERR(IERR,IERR2,HERR,HERR2)
+              INTEGER(KIND=4) :: IERR
+              INTEGER(KIND=4) :: IERR2
+              CHARACTER(LEN=255) :: HERR
+              CHARACTER(LEN=255) :: HERR2
+            END SUBROUTINE SWAPERR
+          END INTERFACE 
+        END MODULE SWAPERR__genmod

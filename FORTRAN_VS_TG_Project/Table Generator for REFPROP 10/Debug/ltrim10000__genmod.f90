@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE LTRIM10000__genmod
+          INTERFACE 
+            FUNCTION LTRIM10000(A)
+              CHARACTER(*) :: A
+              CHARACTER(LEN=10000) :: LTRIM10000
+            END FUNCTION LTRIM10000
+          END INTERFACE 
+        END MODULE LTRIM10000__genmod

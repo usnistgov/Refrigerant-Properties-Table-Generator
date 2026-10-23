@@ -1,0 +1,13 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:07 2020
+        MODULE SETTRN__genmod
+          INTERFACE 
+            SUBROUTINE SETTRN(NREAD,ICOMP,HREFF,HEOSS,IERR,HERR)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=255) :: HREFF
+              CHARACTER(LEN=3) :: HEOSS
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETTRN
+          END INTERFACE 
+        END MODULE SETTRN__genmod

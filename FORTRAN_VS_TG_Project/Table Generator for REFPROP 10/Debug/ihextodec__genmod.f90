@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:52 2020
+        MODULE IHEXTODEC__genmod
+          INTERFACE 
+            FUNCTION IHEXTODEC(HA)
+              CHARACTER(*) :: HA
+              INTEGER(KIND=4) :: IHEXTODEC
+            END FUNCTION IHEXTODEC
+          END INTERFACE 
+        END MODULE IHEXTODEC__genmod

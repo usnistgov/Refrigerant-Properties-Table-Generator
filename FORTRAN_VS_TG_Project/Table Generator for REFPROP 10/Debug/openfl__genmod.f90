@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE OPENFL__genmod
+          INTERFACE 
+            SUBROUTINE OPENFL(ICOMP,NREAD,HFLIN,HFLOUT,IDIR,IERR,HERR)
+              INTEGER(KIND=4) :: ICOMP
+              INTEGER(KIND=4) :: NREAD
+              CHARACTER(LEN=255) :: HFLIN
+              CHARACTER(LEN=255) :: HFLOUT
+              INTEGER(KIND=4) :: IDIR
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE OPENFL
+          END INTERFACE 
+        END MODULE OPENFL__genmod

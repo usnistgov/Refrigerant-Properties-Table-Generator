@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:01 2020
+        MODULE SETFLUIDS__genmod
+          INTERFACE 
+            SUBROUTINE SETFLUIDS(HFLD,IERR)
+              CHARACTER(*) :: HFLD
+              INTEGER(KIND=4) :: IERR
+            END SUBROUTINE SETFLUIDS
+          END INTERFACE 
+        END MODULE SETFLUIDS__genmod

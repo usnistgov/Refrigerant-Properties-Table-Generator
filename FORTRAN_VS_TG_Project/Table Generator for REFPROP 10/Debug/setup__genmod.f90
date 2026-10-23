@@ -1,0 +1,13 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:34 2020
+        MODULE SETUP__genmod
+          INTERFACE 
+            SUBROUTINE SETUP(NCOMP,HFILES,HFMIX,HRF,IERR,HERR)
+              INTEGER(KIND=4) :: NCOMP
+              CHARACTER(LEN=255) :: HFILES(20)
+              CHARACTER(LEN=255) :: HFMIX
+              CHARACTER(LEN=3) :: HRF
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETUP
+          END INTERFACE 
+        END MODULE SETUP__genmod

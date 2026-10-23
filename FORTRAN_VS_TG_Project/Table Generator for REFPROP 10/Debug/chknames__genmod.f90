@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:54 2020
+        MODULE CHKNAMES__genmod
+          INTERFACE 
+            SUBROUTINE CHKNAMES(ICOMP,HFL,IERR,HERR)
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=255) :: HFL
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE CHKNAMES
+          END INTERFACE 
+        END MODULE CHKNAMES__genmod

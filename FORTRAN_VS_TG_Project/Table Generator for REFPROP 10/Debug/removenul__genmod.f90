@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE REMOVENUL__genmod
+          INTERFACE 
+            FUNCTION REMOVENUL(A)
+              CHARACTER(*) :: A
+              CHARACTER(LEN=255) :: REMOVENUL
+            END FUNCTION REMOVENUL
+          END INTERFACE 
+        END MODULE REMOVENUL__genmod

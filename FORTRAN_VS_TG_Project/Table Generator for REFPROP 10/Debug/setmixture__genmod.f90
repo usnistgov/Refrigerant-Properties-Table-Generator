@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:01 2020
+        MODULE SETMIXTURE__genmod
+          INTERFACE 
+            SUBROUTINE SETMIXTURE(HMIXNME,Z,IERR)
+              CHARACTER(*) :: HMIXNME
+              REAL(KIND=8) :: Z(20)
+              INTEGER(KIND=4) :: IERR
+            END SUBROUTINE SETMIXTURE
+          END INTERFACE 
+        END MODULE SETMIXTURE__genmod

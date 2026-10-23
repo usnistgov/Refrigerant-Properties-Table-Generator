@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE RESETA__genmod
+          INTERFACE 
+            SUBROUTINE RESETA(IFLAG)
+              INTEGER(KIND=4) :: IFLAG
+            END SUBROUTINE RESETA
+          END INTERFACE 
+        END MODULE RESETA__genmod

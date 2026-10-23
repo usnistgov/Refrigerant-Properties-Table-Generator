@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:01 2020
+        MODULE ERRMSG__genmod
+          INTERFACE 
+            SUBROUTINE ERRMSG(IERR,HERR)
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE ERRMSG
+          END INTERFACE 
+        END MODULE ERRMSG__genmod

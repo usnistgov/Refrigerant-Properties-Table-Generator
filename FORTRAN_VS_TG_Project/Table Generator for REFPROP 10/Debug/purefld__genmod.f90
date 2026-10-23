@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:34 2020
+        MODULE PUREFLD__genmod
+          INTERFACE 
+            SUBROUTINE PUREFLD(ICOMP)
+              INTEGER(KIND=4) :: ICOMP
+            END SUBROUTINE PUREFLD
+          END INTERFACE 
+        END MODULE PUREFLD__genmod

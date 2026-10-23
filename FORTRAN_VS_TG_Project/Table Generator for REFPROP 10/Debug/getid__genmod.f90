@@ -1,0 +1,13 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE GETID__genmod
+          INTERFACE 
+            SUBROUTINE GETID(ICOMP,IFLAG,NREAD,HSTAR,HTYPE,IERR)
+              INTEGER(KIND=4) :: ICOMP
+              INTEGER(KIND=4) :: IFLAG
+              INTEGER(KIND=4) :: NREAD
+              CHARACTER(LEN=1) :: HSTAR
+              CHARACTER(LEN=3) :: HTYPE
+              INTEGER(KIND=4) :: IERR
+            END SUBROUTINE GETID
+          END INTERFACE 
+        END MODULE GETID__genmod

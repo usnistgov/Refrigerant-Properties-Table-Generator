@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE CHECKNAN__genmod
+          INTERFACE 
+            SUBROUTINE CHECKNAN(X)
+              REAL(KIND=8) :: X
+            END SUBROUTINE CHECKNAN
+          END INTERFACE 
+        END MODULE CHECKNAN__genmod

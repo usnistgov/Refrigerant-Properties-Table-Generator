@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:42 2020
+        MODULE SETBWR__genmod
+          INTERFACE 
+            SUBROUTINE SETBWR(NREAD,ICOMP,IERR,HERR)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: ICOMP
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETBWR
+          END INTERFACE 
+        END MODULE SETBWR__genmod

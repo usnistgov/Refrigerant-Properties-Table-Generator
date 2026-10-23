@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:57:51 2020
+        MODULE UCASE10000__genmod
+          INTERFACE 
+            FUNCTION UCASE10000(A)
+              CHARACTER(*) :: A
+              CHARACTER(LEN=10000) :: UCASE10000
+            END FUNCTION UCASE10000
+          END INTERFACE 
+        END MODULE UCASE10000__genmod

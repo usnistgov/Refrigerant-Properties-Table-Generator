@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pad\\source\\repos\\Table_Generator\\Pub_TableG\\FORTRAN_VS_TG_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A70052DD-F881-4E4D-BA0E-AB56C6ED9DAF}|Table Generator for REFPROP 10\\Table Generator for REFPROP 10.vfproj|c:\\users\\pad\\source\\repos\\table_generator\\pub_tableg\\fortran_vs_tg_project\\table generator for refprop 10\\mtable.for||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A70052DD-F881-4E4D-BA0E-AB56C6ED9DAF}|Table Generator for REFPROP 10\\Table Generator for REFPROP 10.vfproj|solutionrelative:table generator for refprop 10\\mtable.for||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mtable.for",
+              "DocumentMoniker": "C:\\Users\\pad\\source\\repos\\Table_Generator\\Pub_TableG\\FORTRAN_VS_TG_Project\\Table Generator for REFPROP 10\\mtable.for",
+              "RelativeDocumentMoniker": "Table Generator for REFPROP 10\\mtable.for",
+              "ToolTip": "C:\\Users\\pad\\source\\repos\\Table_Generator\\Pub_TableG\\FORTRAN_VS_TG_Project\\Table Generator for REFPROP 10\\mtable.for",
+              "RelativeToolTip": "Table Generator for REFPROP 10\\mtable.for",
+              "ViewState": "AgIAABsAAAAAAAAAAAASwA8AAAApAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACMSURBVDhPxZJBDsQgCEU/sytHM57Cg/UUpEfDpbPSgjVtmc28lZKfJwSptYYOEY2zRVXPkIG3DWQFtdZlEAAO3ucSkparIOfsQgAgIjGBiLggTAdJi6t/3O0FB\u002B9DxswUFsyEBUmLGyMs6DAzISKYX\u002B68FnTmNYcFM/8XLH/iEyIytnAR2OAdS8EvfAEh4EkdDLYrMwAAAABJRU5ErkJgggAAAAAAAAAAAA==",
+              "WhenOpened": "2026-07-29T20:26:57.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

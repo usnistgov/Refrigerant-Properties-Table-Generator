@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:19 2020
+        MODULE GETFIJ__genmod
+          INTERFACE 
+            SUBROUTINE GETFIJ(HMODIJ,FIJ,HFIJ,HMXRUL)
+              CHARACTER(LEN=3) :: HMODIJ
+              REAL(KIND=8) :: FIJ(6)
+              CHARACTER(LEN=8) :: HFIJ(6)
+              CHARACTER(LEN=255) :: HMXRUL
+            END SUBROUTINE GETFIJ
+          END INTERFACE 
+        END MODULE GETFIJ__genmod

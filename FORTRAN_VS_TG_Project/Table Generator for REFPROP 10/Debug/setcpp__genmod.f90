@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:42 2020
+        MODULE SETCPP__genmod
+          INTERFACE 
+            SUBROUTINE SETCPP(NREAD,ICOMP,IFLG,IERR,HERR)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: ICOMP
+              INTEGER(KIND=4) :: IFLG
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETCPP
+          END INTERFACE 
+        END MODULE SETCPP__genmod

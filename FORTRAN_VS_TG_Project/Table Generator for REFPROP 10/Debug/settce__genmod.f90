@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:22 2020
+        MODULE SETTCE__genmod
+          INTERFACE 
+            SUBROUTINE SETTCE(NREAD,ICOMP,HTYPE,IERR,HERR)
+              INTEGER(KIND=4) :: NREAD
+              INTEGER(KIND=4) :: ICOMP
+              CHARACTER(LEN=3) :: HTYPE
+              INTEGER(KIND=4) :: IERR
+              CHARACTER(LEN=255) :: HERR
+            END SUBROUTINE SETTCE
+          END INTERFACE 
+        END MODULE SETTCE__genmod

@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jul 09 22:58:33 2020
+        MODULE SETNC__genmod
+          INTERFACE 
+            SUBROUTINE SETNC(NCOMP)
+              INTEGER(KIND=4) :: NCOMP
+            END SUBROUTINE SETNC
+          END INTERFACE 
+        END MODULE SETNC__genmod
